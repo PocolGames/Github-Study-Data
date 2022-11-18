@@ -1,0 +1,46 @@
+[원격 repository]
+
+    git은 파일 버전 기록해주는 프로그램
+    git이 파일 기록해두는 장소 repository
+    파일을 git에 등록하면 그 파일안에 숨긴 폴더로 .git 폴더가 하나 생성되는데 그게 repository다.
+
+    깃허브는 기본브랜치 이름을 main으로 강요함.
+    git init 이후에 아래 명령어를 입력하면 됨. ( 때에 따라서 굳이 안해도 될 수 있다. 근데 뭔지는 아직 모름)
+    git branch -M main
+
+[로컬 -> 원격 저장소 업로드 // push]
+    git push -u 원격저장소주소 업로드할로컬브랜치명
+    ex) git push -u https://github.com/eunsu0409/eunsu.git main
+
+[-u에 의미]
+    git push 할 때, -u 추가하면 주소 기억하라는 뜻
+    한번 git push -u https://github.com/eunsu0409/eunsu.git main을 했으면,
+    다음부터는 그냥 git push만 입력함. (main도 입력을 안하네)
+
+[git에서 변수 문법 사용 가능]
+    주소 매번 입력하기 귀찮아서 사용.
+
+    사용법은 다음과 같음.
+    git remote add 변수명 주소
+    ex) git remote add origin https://github.com/eunsu0409/eunsu.git
+
+    -관습적으로 변수명은 origin으로 하는 경우가 많다고 함.
+    사용) git push -u origin main
+
+[원격저장소 복제]
+    git clone 저장소주소
+
+[원격 -> 로컬 저장소 // pull]
+    남이 먼저 push하면 나는 못함. 그래서 최신화 해줘야됨.
+
+    사용법은 다음과 같음.
+    git pull 원격저장소주소 브랜치명
+
+    마찬가지로 git push할 때 -u를 잘 채워놨으면 pull 뒤에 안써도 됨.
+
+[git pull]
+    git pull할 때 브랜치명시가능.
+    원하는 브랜치만 업로드할 수 있다는 뜻.
+    
+    git pull은 git fetch + git merge
+    git fetch : 원격저장소 신규 commit 가져오기.
