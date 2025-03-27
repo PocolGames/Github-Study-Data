@@ -1,5 +1,0 @@
-오류 : LF will be replaced by CRLF the next time Git touch
-OS 별로 줄 바꿈에 대한 문자열이 다르기 때문에 선택하라는 메시지
-
-Window 용
-git config --global core.autocrlf true
