@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. 요약.md",
-                "mode": "source",
+                "file": "0. Git 공부 자료.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 요약"
+              "title": "0. Git 공부 자료"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. 요약.md",
+                "file": "0. Git 공부 자료.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2. 요약 의 백링크"
+              "title": "0. Git 공부 자료 의 백링크"
             }
           },
           {
@@ -170,10 +170,21 @@
   },
   "active": "422dbab57c7b229a",
   "lastOpenFiles": [
-    "1. Git 명령어 모음.md",
+    "EX/2_3-way.md",
     "0. Git 공부 자료.md",
-    "2. 요약.md",
+    "1. 요약.md",
+    "EX/2_3-way_merge.png",
+    "깃 사용 예시.png",
+    "README.md",
     "git 다운.png",
+    "EX/11_squash and merge 예시 자료 2.png",
+    "EX/10_squash and merge 예시 자료 1.png",
+    "EX/8_무지성 3-way merge를 하게 된다면.png",
+    "EX/9_squash and merge.png",
+    "EX/7_rebase 예시 자료 3.png",
+    "EX/6_rebase 예시 자료 2.png",
+    "EX/5_rebase 예시 자료 1.png",
+    "1. Git 명령어 모음.md",
     "READ ME.md"
   ]
 }
