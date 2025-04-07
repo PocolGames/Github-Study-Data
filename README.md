@@ -1,6 +1,6 @@
 # 목차
-* [0.Git 공부 자료][./0.Git_Study.md]
-* [1.요약][./1.Summary.md]
+* [0.Git 공부 자료](./0.Git_Study.md)
+* [1.요약](./1.Summary.md)
 # 주로 사용하는 명령어
 ```
 git add .
