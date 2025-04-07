@@ -2,7 +2,7 @@
 ```
 git add .
 git commit -m '체력 UI 수정'
-git push git push https://github.com/PocolGames/Github-Study-Data.git main
+git push  https://github.com/PocolGames/Github-Study-Data.git main
 git pull
 ```
 
